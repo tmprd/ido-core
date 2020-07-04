@@ -8102,6 +8102,7 @@ I want to say chicken pox are either under (2) or (3), but they&apos;re not part
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido.owl/IDO_0001088"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <obo:IAO_0000116 xml:lang="en">The mass noun term label imported from the NCBITaxon &quot;Viruses&quot; has been replaced with the count noun &quot;virus&quot;, to align with BFO.</obo:IAO_0000116>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon.owl"/>
         <rdfs:label>virus</rdfs:label>
@@ -9946,6 +9947,16 @@ binary, and takes no temporal argument.
 
 </obo:IAO_0000115>
         <rdfs:label xml:lang="en">relation has no temporal argument</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido.owl/COVID_0000000 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido.owl/COVID_0000000">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <oboInOwl:term_editor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tim Prudhomme</oboInOwl:term_editor>
+        <rdfs:label>Tim&apos;s pet virus</rdfs:label>
     </owl:NamedIndividual>
     
 
